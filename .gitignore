@@ -1,0 +1,15 @@
+# environments / build output
+.venv/
+__pycache__/
+build/
+dist/
+*.spec
+
+# downloaded model (build_exe.ps1 fetches it)
+models/
+
+# per-user, per-device calibration and recordings
+calib.json
+calib_raw.npz
+*.npz
+*.csv
